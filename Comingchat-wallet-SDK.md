@@ -67,6 +67,7 @@ There is no doubt that the blockchain world is in the process of transitioning f
 ## Development Roadmap :nut_and_bolt: 
 ### milestone 1
 * **Estimated Duration:** 4 weeks 
+* **Full-Time Equivalent (FTE):** 2
 * **Costs:** 20 000 DAI
 
 | Number | Deliverable            | Specification                                                |
