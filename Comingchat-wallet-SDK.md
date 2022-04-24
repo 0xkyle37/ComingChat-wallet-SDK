@@ -38,23 +38,13 @@ Comingchat-wallet-SDK is a full-environment(Android & IOS) and multi-chain walle
 
 **Workflow**
 
-1. Import the mnemonic or private key to generate the wallet object 
+1. Import mnemonic or private key to generate `wallet` object.
+2. Generate a polka `account` object through ss58.
+3. Create a `chain` object via rpcUrl.
+4. Get metadataString from `chain`, create a `tx` object to construct `transaction`.
+5. Call the polka `account` to sign the `transaction` and get the `signature data`.
+6. Generate **sendTx** from `transaction` based on polka `account` public key and `signature data`.
 
-2. Call `Create Wallet` to get the wallet object wallet for signing
-
-3. Call `get nonce` `get specversion` `get transactionversion` to get the construction parameters (nonce, specVersion, transVersion )
-
-4. Metadata is obtained according to the interface judgment
-
-5. Call `generate Tx` to get the tx object for constructing the transaction
-
-6. Create transaction t through tx object
-
-7. Use `sign tx data` method to sign the content of transaction t 
-
-8. Put the signer's public key (by `get the public key`) and the signature content into the `generate Tx` method
-
-9. Transaction t calls Get Tx to get Send Tx
 
 ### Ecosystem Fit
 
