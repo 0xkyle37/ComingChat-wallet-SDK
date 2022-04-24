@@ -2,7 +2,7 @@
 
 - **Project Name:** Comingchat-wallet-SDK
 - **Team Name:** PolkaX
-- **Payment Address:** 0x006E97e28CAa58D3357d070C9535D6CD06bD875e(DAI)
+- **Payment Address:** 0xc7F3CEF3D4Da3d01E2a03E7CC047EF705B425452(DAI)
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 ## Project Overview :page_facing_up:
